@@ -1,5 +1,4 @@
-# Mediterranean Plant Species Identification
-### Title: Artificial vision models for the identification of Mediterranean flora: an analysis in four ecosystems
+# Mediterranean Plant Species Identification (Under preparation)
 
 This repository contains the implementation steps for our experimental study on plant species identification. Our study quantitatively evaluates the performance of six popular object detection models on our dataset collected in the wild, comprising various plant species from four habitats: screes, dunes, grasslands, and forests. The dataset employed in this work includes the data collected by human operators and the quadrupedal robot ANYmal C. The pre-trained (on COCO dataset) object detection models have been chosen for experiments, and they are fine-tuned on our dataset. These models incorporate two one-stage (**RetinaNet** and **YOLOv8n**), two two-stage (**Faster RCNN** and **Cascade RCNN**), and two transformer-based detectors (**DETR** and **Deformable DETR**). We have performed the experiments on the four habitat datasets by applying class balancing and hyperparameter tuning. 
 
@@ -11,6 +10,6 @@ YOLOv8 has been implemented separately with the help of its [GitHub](https://git
 
 [YOLOv8 Github](https://github.com/ultralytics)
 
-The dataset utilised in this study can be found [here](https://zenodo.org/records/11504938).
+The dataset utilised in this study can be found [here](https://zenodo.org/records/11504938). The sample data can be viewed in the attached image **dataset**. 
 
-To be updated...
+To be updated soon...
