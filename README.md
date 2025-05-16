@@ -1,4 +1,4 @@
-# Plant_species_identification
+# Mediterranean Plant Species Identification
 ### Title: Artificial vision models for the identification of Mediterranean flora: an analysis in four ecosystems
 
 This repository contains the implementation steps for our experimental study on plant species identification. Our study quantitatively evaluates the performance of six popular object detection models on our dataset collected in the wild, comprising various plant species from four habitats: screes, dunes, grasslands, and forests. The dataset employed in this work includes the data collected by human operators and the quadrupedal robot ANYmal C. The pre-trained (on COCO dataset) object detection models have been chosen for experiments, and they are fine-tuned on our dataset. These models incorporate two one-stage (**RetinaNet** and **YOLOv8n**), two two-stage (**Faster RCNN** and **Cascade RCNN**), and two transformer-based detectors (**DETR** and **Deformable DETR**). We have performed the experiments on the four habitat datasets by applying class balancing and hyperparameter tuning. 
@@ -8,6 +8,7 @@ The implementation of the five methods, except YOLO, has been performed in [MMDe
 YOLOv8 has been implemented separately with the help of its [GitHub](https://github.com/ultralytics) repository. The documentation of YOLOv8 can be found [here](https://docs.ultralytics.com/). The attached Table **YOLO_configuration** shows the YOLOv8 hyperparameter values for diverse model training for all the habitats. The first column has all the hyperparameters, and the second column shows the default values used in YOLOv8 architecture, which are the same for all habitats. The subsequent columns present the different hyperparameter values for two settings: *200e*, *10iter* and *100e*, *20iter*. The setting *200e* and *10iter* means that the hyperparameter tuning has been performed on YOLO for *10* iterations and *200* epochs; similarly, *100e* and *20iter* represent *20* iterations and *100* epochs. After getting the best hyperparameters for a particular setting, YOLO was trained separately for each habitat using those hyperparameter values for *200* epochs. YOLO has been trained with default parameters for *500* epochs with the patience of *50*. 
 
 [MMDetection Github](https://github.com/open-mmlab/mmdetection)
+
 [YOLOv8 Github](https://github.com/ultralytics)
 
 The dataset utilised in this study can be found [here](https://zenodo.org/records/11504938).
