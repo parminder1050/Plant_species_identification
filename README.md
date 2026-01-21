@@ -12,7 +12,7 @@ YOLOv8 has been implemented separately using its [GitHub](https://github.com/ult
 
 The dataset utilised in this study can be found [here](https://zenodo.org/records/11504938). The sample data can be viewed in the attached image **dataset**. 
 
-If you find this repository useful, please cite the article below.
+### If you find this repository useful, please cite the article below.
 
 @article{kaur2025artificial, title={Artificial vision models for the identification of Mediterranean flora: An analysis in four ecosystems}, author={Kaur, Parminder and Grassi, Anna and Bonini, Federica and Valle, Barbara and Borgatti, Marina Serena and Rivieccio, Giovanni and Denaro, Agnese and De Simone, Leopoldo and Fanfarillo, Emanuele and Remagnino, Paolo}, journal={PloS one}, volume={20}, number={9}, pages={e0327969}, year={2025}, publisher={Public Library of Science San Francisco, CA USA}
 }
